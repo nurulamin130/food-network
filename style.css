@@ -31,3 +31,19 @@ h1{
 .half-width p{
     padding: 15px 0px 50px 0px;
 }
+.about-area{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+.my-recipie{
+    text-align: center;
+
+}
+.my-recipie p{
+    padding: 0px 350px 0px;
+}
+section .recipie{
+    height: 250px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
