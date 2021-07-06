@@ -150,3 +150,17 @@ li a {
     color: orange;
     
   }
+  @keyframes slide{
+    25%{
+        background: url(images/food/Project\ Cover8.png);  
+    }
+    50%{
+        background: url(images/food/Project\ Cover7.png);   
+    }
+    75%{
+        background: url(images/food/Project\ Cover6.png); 
+    }
+    100%{
+        background: url(images/food/Project\ Cover5.png);   
+    }
+}
