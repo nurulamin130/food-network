@@ -7,6 +7,10 @@ section{
     height: 450px;
     padding-bottom: 150px;
 }
+section .recipie{
+    height: 200px;
+    padding-bottom: 50px;
+}
 .half-width{
     width:40%;
     float: left;
@@ -46,4 +50,45 @@ section .recipie{
     height: 250px;
     padding-bottom: 50px;
     margin-bottom: 20px;
+}
+.food-show{
+    
+}
+.one-thidr-width{
+    width: 28%;
+    box-shadow: 0px 0px 10px grey;
+    margin-left: 32px;
+    border: 5px solid #fff;
+    border-radius: 17px;
+}
+.one-thidr-width h3{
+    padding-left: 8px;    
+
+}
+.one-thidr-width img{
+    width: 100%;
+   
+}
+.one-thidr-width p{
+    padding-left: 8px;
+}
+.clear{
+    content: "";
+    clear: both;
+    display: block;
+}
+.left{
+    float: left;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    padding: 1px;
+    margin: 0px;
+}
+footer p{
+    color: white;
+}
+footer h1{
+    color: white;
 }
