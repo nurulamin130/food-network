@@ -125,3 +125,28 @@ footer p{
 footer h1{
     color: white;
 }
+ul{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black
+
+}
+li{
+    float: right;
+}
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 25px 28px;
+    margin-left: 60px;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+  li a:hover {
+    background-color: rgb(64, 32, 178);
+    color: orange;
+    
+  }
