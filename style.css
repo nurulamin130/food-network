@@ -86,15 +86,7 @@ h1{
 .left{
     float: left;
 }
-/* .card{
-    width: 80%;
- 
- margin-left: 10%;
-  border-radius: 25px;
-  display: flex;
-  
-  box-shadow: 10px 10px 40px gray;
- } */
+
  .social-media{
     width: 30%;
     padding-left: 9%;
@@ -143,24 +135,27 @@ li a {
     padding: 25px 28px;
     margin-left: 60px;
     text-decoration: none;
-    border-radius: 10px;
+    border-radius: 30px;
   }
   li a:hover {
     background-color: rgb(64, 32, 178);
     color: orange;
     
   }
-  @keyframes slide{
-    25%{
-        background: url(images/food/Project\ Cover8.png);  
-    }
-    50%{
-        background: url(images/food/Project\ Cover7.png);   
-    }
-    75%{
-        background: url(images/food/Project\ Cover6.png); 
-    }
-    100%{
-        background: url(images/food/Project\ Cover5.png);   
-    }
+  .favorite-food{
+    height: 450px;
+    padding-top: 200px;
+    padding: 2% 2%;
+    margin: 2% 2%;
+    box-shadow: 10px 10px 30px gray;
+    background-image: url(images/shapes/Group\ 8446.png);
+  }
+  .favorite-food img{
+    width: 80%;
+   
 }
+.favorite{
+    color: green;
+}
+  
+
